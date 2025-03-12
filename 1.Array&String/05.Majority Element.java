@@ -14,3 +14,5 @@ class Solution {
         return ans;
     }
 }
+
+this code uses Boyer-Moore Voting Algorithm to find the majority element 
