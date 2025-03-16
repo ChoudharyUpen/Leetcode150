@@ -9,6 +9,7 @@ class Solution {
                 ans=n;
 
             }
+            //agar majority element same element hai jo humna assume kiya hai toh +1 kar do warna -1 kar do 
             majority +=n ==ans? 1:-1;
         }
         return ans;
