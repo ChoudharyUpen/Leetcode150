@@ -4,6 +4,7 @@ class Solution {
         int majority=0;
 
         for(int n:nums){
+            //phela number ko majority bana do 
             if(majority ==0 ){
 
                 ans=n;
