@@ -16,3 +16,5 @@ class Solution {
 }
 
 this code uses Boyer-Moore Voting Algorithm to find the majority element 
+Pratice this question more understand this 
+search if this question can also be done with hashmap
