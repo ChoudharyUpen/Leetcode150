@@ -11,3 +11,6 @@ class Solution {
         return goal == 0;        
     }
 }
+
+
+this is easy question but pratice it again and again
