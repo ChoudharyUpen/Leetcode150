@@ -15,3 +15,6 @@ class Solution {
         return jumps;        
     }
 }
+
+
+not able to understand this solution give more time to it 
