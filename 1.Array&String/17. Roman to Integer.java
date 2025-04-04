@@ -1,6 +1,7 @@
 class Solution {
     public int romanToInt(String s) {
-         int ans = 0, num = 0;
+        int ans = 0; // final answer yahan store hoga
+        int num = 0; // current letter ki value yahan aayegi
         for (int i = s.length()-1; i >= 0; i--) {
             switch(s.charAt(i)) {
                 case 'I': num = 1; break;
