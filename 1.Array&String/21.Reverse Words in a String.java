@@ -1,4 +1,4 @@
-(Spaces hatake, words ko reverse order me likhna hai)
+//(Spaces hatake, words ko reverse order me likhna hai)
 
 
 class Solution {
