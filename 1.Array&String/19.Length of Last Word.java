@@ -9,8 +9,9 @@
     
 class Solution {
     public int lengthOfLastWord(String s) {
-        int y = s.length();
-        int a = 0;
+          int y = s.length();  // y = 13 (total characters including spaces)
+          int a = 0;           // a = 0 (hum last word ka length yahan count karenge)
+
         while(y > 0) {
             y--;
             if(s.charAt(y) != ' ') {
