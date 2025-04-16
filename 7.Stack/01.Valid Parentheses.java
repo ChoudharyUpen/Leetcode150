@@ -7,9 +7,12 @@ class Solution {
         mapping.put(']', '[');
 
         for (char c : s.toCharArray()) {
+            // Check: mapping.containsValue('(') → Yes ✅
             if (mapping.containsValue(c)) {
                 stack.push(c);
-            } else if (mapping.containsKey(c)) {
+            } 
+            // Check: mapping.containsKey(')') → Yes ✅
+            else if (mapping.containsKey(c)) {
                 if (stack.isEmpty() || mapping.get(c) != stack.pop()) {
                     return false;
                 }
