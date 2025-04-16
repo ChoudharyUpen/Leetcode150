@@ -1,3 +1,14 @@
+🔍 Problem samajho:
+Input: Ek string path jisme / se separated folders hote hain.
+Rules:
+1    . ka matlab hota hai current folder → ignore karo.
+2    .. ka matlab hota hai peeche waala folder → ek folder peeche jao.
+3     // ka koi matlab nahi → ignore karo.
+
+
+
+
+
 class Solution {
     public String simplifyPath(String path) {
         String[] components = path.split("/");
