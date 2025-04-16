@@ -6,7 +6,11 @@ Rules:
 3     // ka koi matlab nahi → ignore karo.
 
 
-
+💡 Logic samjho:
+Hum ek stack ka use karenge:
+1.  Normal folder naam aaye → push karo.
+2   . ya empty string aaye → ignore karo.
+3   .. aaye → pop karo (agar stack empty nahi hai).
 
 
 class Solution {
